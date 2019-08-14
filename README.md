@@ -62,3 +62,10 @@ O finalmente borrarlo
 $ kubectl delete sswebsites.crds.cloudnative.mx domix-website
 simplewebsiteconfig.crds.cloudnative.mx "domix-website" deleted
 ```
+
+
+## Notas importantes
+
+El anterior CRD es tonto, solo se almacena en ETCD, se puede interactuar con el de forma básica, pero no hace realmente nada. Para añadir funcionalidad o lógica hay que escribir un `controller` que se encargue de ese trabajo.
+
+Para escribir un `controller` es recomendable usar el [Operator Framework](https://github.com/operator-framework/operator-sdk). Se puede hacer sin él, pero será un poco mas complejo.

@@ -1,0 +1,8 @@
+apiVersion: "crds.cloudnative.mx/v1alpha1"
+kind: "SimpleWebsiteConfig"
+metadata:
+  name: "domix-website"
+spec:
+  name: "Domingo Suarez Torres"
+  email : "domingo.suarez@gmail.com"
+  domain: "domingosuarez.com"

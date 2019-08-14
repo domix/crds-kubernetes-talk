@@ -1,0 +1,1 @@
+docker build -t domix/simple-website:0.0.1 .
