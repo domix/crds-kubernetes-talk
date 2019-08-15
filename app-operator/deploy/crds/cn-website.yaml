@@ -1,0 +1,10 @@
+apiVersion: crds.cloudnative.mx/v1alpha1
+kind: SimpleWebsiteConfig
+metadata:
+  name: cloudnative-config
+  namespace: kube-foo
+spec:
+  # Add fields here
+  name: "Cloud Native México"
+  email : "cloudnativemx@gmail.com"
+  domain: "cloudnative.mx"
