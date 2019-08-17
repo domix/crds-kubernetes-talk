@@ -1,4 +1,4 @@
-# crds-kubernetes-talk
+# entendiendo los CRDs de Kubernetes 
 
 
 Podemos preguntarle a Kubernetes cuales `CRDs` conoce
